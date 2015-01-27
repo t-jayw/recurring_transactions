@@ -3,6 +3,9 @@ looks for monthly recurring transactions in csv of transactions that have ocurre
 
 usage: python transactions.py *your csv file* 
 
+example:
+> python transactions.py /Users/tyler/Downloads/transactions.csv
+
 (If on a mac, probably '/Users/_yourusername_/Downloads/transactions.csv')
 
 It's set up to work nicely with data from mint.com. You can go to you transactions page on mint and at the bottom select "Download all <x> transactions" and use that CSV directly with this program. CSVs from other sources could still work, you'd just need to adjust the column names in the program to whatever your columns are, and the date format if it's different. 
